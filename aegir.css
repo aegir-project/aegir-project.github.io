@@ -53,20 +53,35 @@ h3 {
 }
 
 #content #main {
-  width:340px;
-  padding:30px;
+  padding: 0px 30px 30px 30px;
 }
 
-#content #side {
+#content ol { font-weight: bold; }
+#content li {
+  padding-bottom: 15px;
+  font-weight: normal;
+}
+
+#content #aegir-illo {
   float:right;
-  width:490px;
-  margin:0px 30px;
-  text-align:center;
+  width: 50%;
+  height: 50%;
+  margin: -45px 30px 15px 30px;
 }
 
 #content p {
   line-height:24px;
 }
+
+div.code {
+  display:block;
+  overflow:auto;
+  padding-left: 15px;
+  background-color: #cfcfcf;
+  font-family: 'courier new';
+  font-size: 0.8em;
+}
+
 
 /* == Footer ============================================== */
 

@@ -10,17 +10,33 @@
 
 <div id="header">
   <h1 class="site-name">Aegir</h1>
-  <h2 class="tagline">Deploying and managing large <br />networks of Drupal sites.</h2>
+  <h2 class="tagline">Deploy and manage large <br />networks of Drupal sites.</h2>
 </div>
 
 <div id="content">
-  <div id="side">
-    <img src="images/aegir-illo.png" alt="Aegir" />
-  </div>
   <div id="main">
+    <img id="aegir-illo" src="images/aegir-illo.png" alt="Aegir" />
     <h3>What is Aegir?</h3>
-    <p>The Aegir hosting system allows developers and site administrators to automate many of the common tasks associated with deploying and managing large websites. Aegir makes it easy to install, upgrade, deploy, and backup an entire network of Drupal sites.</p>
-    <p>Recent support for multi-server site deployment and management allows for migrating sites between servers, including large sites spread across multiple web servers.</p>
+
+    <ol>
+      <li>Aegir is built by a community of systems administrators and developers who share Drupal deployment tools, strategies and best practices, instead of continuing to write our own little shell scripts.</li>
+      <li>Aegir allows you to deploy and manage many Drupal sites, and can scale across multiple server clusters. Aegir makes it easy to install, upgrade, and backup an entire network of Drupal sites</li>
+      <li>Aegir is fully extensible, since it's built on <a href="https://drupal.org/project/hostmaster">Drupal</a> and <a href="https://drupal.org/project/provision">Drush</a>, and supports many add-ons through <a href="http://community.aegirproject.org/contrib-modules">contributed extensions</a>.</li>
+    </ol>
+
+    <p>Curious? Check out the <a href="http://community.aegirproject.org/content/aegir-handbook">Aegir Handbook</a>, or better yet...</p>
+
+    <h3>Get Aegir</h3>
+    <p>On a recent Debian or Ubuntu server (with a fully qualified domain name), and run the following commands:</p>
+
+    <div class="code">
+    <pre>echo "deb http://debian.aegirproject.org stable main" | sudo tee -a /etc/apt/sources.list.d/aegir-stable.list
+curl http://debian.aegirproject.org/key.asc | sudo apt-key add -
+sudo apt-get update
+sudo apt-get install aegir</pre>
+    </div>
+
+    <p>See the <a href="http://community.aegirproject.org/installing">Installation Guide</a> for more details, or guidance on installing on other operating systems.<p>
     <p>Aegir is under active development. You can check out the latest code from Drupal.org's <a href="http://drupal.org/project/provision">provision</a> and <a href="http://drupal.org/project/hostmaster">hostmaster</a> projects.</p>
   </div>
   <div class="clear"></div>
