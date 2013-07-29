@@ -1,0 +1,115 @@
+body {
+  font-family: Arial,sans-serif;
+  color:#0e3f70;
+  font-size:17px;
+}
+
+div#wrapper {
+  width:950px;
+  margin:0px auto;
+}
+
+div.clear { clear:both; }
+
+/* == Links =============================================== */
+
+a {
+  text-decoration:none;
+  color:#4396e8;
+}
+
+p a { font-weight:bold; }
+
+a:hover { border-bottom:1px solid #9dc8f3; }
+
+/* == Header ============================================== */
+
+#header {
+  margin:30px;
+  height:110px;
+}
+
+h1.site-name {
+  float:left;
+  margin:0px;
+  width:80px;
+  height:110px;
+  text-indent:-9999px;
+  background:url(images/sprite.png) 0px -50px no-repeat;
+}
+
+h2.tagline {
+  font-size:26px;
+  line-height:40px;
+  margin-left:140px;
+  padding-top:20px;
+}
+
+/* == Content ============================================= */
+
+h3 {
+  font-size:20px;
+  font-weight:bold;
+}
+
+#content #main {
+  width:340px;
+  padding:30px;
+}
+
+#content #side {
+  float:right;
+  width:490px;
+  margin:0px 30px;
+  text-align:center;
+}
+
+#content p {
+  line-height:24px;
+}
+
+/* == Footer ============================================== */
+
+#footer {
+  clear:both;
+  margin:30px 0px;
+}
+
+ul.footer-links,
+ul.footer-links li {
+  list-style:none;
+  margin:0px;
+  padding:0px;
+}
+
+ul.footer-links li {
+  display:block;
+  float:left;
+  width:189px;
+  border-right:1px dashed #134372;
+  text-align:center;
+  padding-bottom:5px;
+}
+
+ul.footer-links li.last { border:none; }
+
+ul.footer-links li a {
+  font-size:14px;
+}
+
+span.icon {
+  display:block;
+  margin:0px auto;
+  width:70px;
+  height:50px;
+  background:url(images/sprite.png) 0 0 no-repeat;
+}
+
+span.icon-drupal-group { background-position:15px 0px; }
+span.icon-irc { background-position:-45px 0px; }
+span.icon-source { background-position:-115px 0px; }
+span.icon-twitter { background-position:-95px -50px; }
+span.icon-concph { background-position:-95px -100px; }
+
+ul.footer-links p { margin:10px 0px; }
+
