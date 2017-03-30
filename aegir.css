@@ -83,6 +83,23 @@ div.code {
 }
 
 
+/* == Side ================================================ */
+
+#maintainers {
+  top: 200px;
+  position: absolute;
+}
+
+#sponsors {
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+.side li {
+  list-style: none;
+  margin-top: 5px;
+}
+
 /* == Footer ============================================== */
 
 #footer {
