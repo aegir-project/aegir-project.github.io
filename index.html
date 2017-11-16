@@ -39,17 +39,6 @@ sudo apt-get update
 sudo apt-get install aegir3 aegir-archive-keyring</pre>
     </div>
 
-    <div class="code">
-      <pre>
-# Debian 8 (Jessie):
-sudo apt-get install mysql-server curl apt-transport-https
-sudo mysql_secure_installation
-echo "deb https://debian.aegirproject.org stable main" | sudo tee -a /etc/apt/sources.list.d/aegir-stable.list
-curl https://debian.aegirproject.org/key.asc | sudo apt-key add -
-sudo apt-get update
-sudo apt-get install aegir3</pre>
-    </div>
-
     <p>See the <a href="http://docs.aegirproject.org/en/3.x/install/">Installation Guide</a> for more details, or guidance on installing on other operating systems.<p>
     <p>Aegir is under active development. You can check out the latest code from Drupal.org's <a href="https://www.drupal.org/project/Provision">Provision</a>, <a href="https://www.drupal.org/project/hostmaster">Hostmaster</a> and <a href="https://www.drupal.org/project/hosting">Hosting</a> projects.</p>
   </div>
